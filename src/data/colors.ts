@@ -1,0 +1,10 @@
+export const white = "#FFFFFF";
+export const dark = "#000000";
+export const lightGray = "#DFDFDF";
+export const shadowGray = "#3B3E47";
+export const darkGray = "#292B32";
+export const blue = "#2C9CF0";
+export const skyBlue = "#738FFF";
+export const lightBlue = "#818A97";
+export const gunMetal = "#18282A";
+export const teal = "#006555";
