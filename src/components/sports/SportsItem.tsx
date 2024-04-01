@@ -1,9 +1,9 @@
-import { SportsItem } from "@/data/data";
+import { SportsItem as SportsItemType } from "@/data/data";
 import Image from "next/image";
 import React from "react";
 
 type PropsType = {
-  item: SportsItem;
+  item: SportsItemType;
   index?: number;
 };
 
