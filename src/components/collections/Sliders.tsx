@@ -1,8 +1,8 @@
 "use client";
 import { CollectionItem } from "@/data/data";
-import Image from "next/image";
+
 import React, { useRef } from "react";
-import Slider from "react-slick";
+import Slider, { Settings } from "react-slick";
 
 type PropsType = {
   items: CollectionItem[];
@@ -16,8 +16,8 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import PrevArrow from "./PrevArrow ";
 
 const Sliders = ({ items }: PropsType) => {
-  const sliderRef = useRef(null);
-  var settings = {
+  const sliderRef = useRef<Slider>(null);
+  var settings: Settings = {
     dots: false,
     infinite: false,
     speed: 500,
